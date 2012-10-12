@@ -1,3 +1,7 @@
+body {
+	background-image: url(/images/bg.png);
+}
+
 p {
 	font-size: 16px;
 	line-height: 21px;
@@ -5,4 +9,44 @@ p {
 
 .hero-unit {
 	margin-top: 10px;
+}
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+.nav.nav-pills {
+	margin-bottom: 0;
+}
+
+.caption.span8 {
+	padding-top: 0;
+}
+
+.caption h3 {
+	margin-top: 0;
+}
+
+#AfterPost {
+	border-top: 1px solid #999;
+}
+
+#AfterPost div {
+	margin-top: 10px;
+}
+
+.CommentContent p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.CommentContent {
+	border-bottom: 1px solid #999;
+	margin-bottom: 10px;
 }
