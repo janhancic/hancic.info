@@ -54,12 +54,42 @@ footer {
 @-webkit-keyframes moveUp
 {
 	from {
-		padding-bottom: 0;
+		padding-top: 5px;
+		height: 32px;
 	}
 
 	to {
-		padding-bottom: 10px;
+		padding-top: 0;
+		height: 37px;
 	}
+}
+
+@-webkit-keyframes moveDown
+{
+	from {
+		padding-top: 0;
+		height: 37px;
+	}
+
+	to {
+		padding-top: 5px;
+		height: 32px;
+	}
+}
+
+#ContactMe a {
+	float: left;
+	width: 32px;
+	height: 32px;
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+
+#ContactMe a:hover {
+	-webkit-animation: moveUp 300ms;
+	-webkit-animation-fill-mode: forwards;
 }
 
 .label-info {
