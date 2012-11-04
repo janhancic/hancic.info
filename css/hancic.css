@@ -95,3 +95,11 @@ footer {
 #SidebarSearch {
 	margin-top: 10px;
 }
+
+article h1 small {
+	font-size: 12px;
+}
+
+aside ul.nav {
+	padding-left: 0;
+}
