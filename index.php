@@ -3,7 +3,7 @@
 <div class="row-fluid">
 	<div class="span7">
 		<div class="page-header">
-			<h1>Thoughts by Jan Hančič <small>just keep tryin' ta get a little better</small></h1>
+			<h1>Thoughts by Jan Hančič</h1>
 		</div>
 
 		<h2><a href="/post.php">Google analytics and cookies</a> <small>6 October, 2012</small></h2>

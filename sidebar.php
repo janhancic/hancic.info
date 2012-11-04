@@ -21,14 +21,14 @@
 					<input type="text" class="input-big search-query" placeholder="Search...">
 				</form>
 			</div>
+			<div style="margin-top: 10px;">
+				<iframe src="http://stackoverflow.com/users/flair/185527.html?theme=clean" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" width="210" height="60"></iframe>
+			</div>
 			<ul class="nav nav-list">
 				<li class="nav-header">Archive</li>
 				<li class="active2"><a href="#">September 2012</a></li>
 				<li><a href="#">August 2012</a></li>
 			</ul>
-			<div style="margin-top: 10px;">
-				<iframe src="http://stackoverflow.com/users/flair/185527.html?theme=clean" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" width="210" height="60"></iframe>
-			</div>
 		</div>
 	</div>
 </aside>
