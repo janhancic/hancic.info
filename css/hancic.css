@@ -91,3 +91,7 @@ footer {
 	background-position: left top;
 	-webkit-transition: all 300ms linear;
 }
+
+#SidebarSearch {
+	margin-top: 10px;
+}
