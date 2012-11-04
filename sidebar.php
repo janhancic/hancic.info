@@ -14,6 +14,7 @@
 				<li><a href="https://github.com/janhancic" target="_blank">GitHub</a></li>
 				<li><a href="http://stackoverflow.com/users/185527/jan-hancic" target="_blank">Stack Overflow</a></li>
 				<li><a href="http://news.ycombinator.com/user?id=CWIZO" target="_blank">Hacker News</a></li>
+				<li><a href="https://plus.google.com/101933973369629353103?rel=author" target="_blank">Google+</a></li>
 			</ul>
 			<div id="SidebarSearch">
 				<form class="form-search">
