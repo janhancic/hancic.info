@@ -24,7 +24,8 @@
 					<span class="label label-info">Sphinx</span> 
 					<span class="label label-info">jQuery</span> 
 					<span class="label label-info">jQuery UI</span> 
-					<span class="label label-info">Bootstrap</span> 
+					<span class="label label-info">Twitter Bootstrap</span> 
+					<span class="label label-info">Knockout.JS</span> 
 					<span class="label label-info">FB open graph</span> 
 					<span class="label label-info">WideImage</span> 
 					<span class="label label-info">git</span> 
