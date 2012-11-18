@@ -687,6 +687,7 @@
 	</div>
 	<div class="modal-body">
 		<p><a href="http://news.ycombinator.com" target="_blank">Hacker News</a> community has given me so much. So I decided to thank them with this extension. It allows you to create a list of your favourite users and it then highlights those users on each HN page if they are present.</p>
+		<p>Click <a href="http://hancic.info/hn-favourite-users">here</a> to read more about this.
 		<dl class="dl-horizontal">
 			<dt>build time</dt>
 			<dd>1 day</dd>
