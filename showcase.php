@@ -41,14 +41,26 @@
 	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
+				<img src="/images/showcase/hnfavouriteusers.png" alt="HN Favourite Users" class="span4">
+				<div class="caption span8">
+					<h3>HN Favourite Users</h3>
+					<p>Extension that highlights favourite users on Hacker News.</p>
+					<p><a href="#hnfavouriteusers" role="button" data-toggle="modal" class="btn btn-info">Details</a> <a href="https://github.com/janhancic/hn-favourite-users" target="_blank" role="button" class="btn btn-info">View on GitHub</a> <a href="https://chrome.google.com/webstore/detail/hn-favourite-users/hleiemhnepoghplnnhkhpnjeiaifnobo" target="_blank">install extension</a></p>
+				</div>
+			</div>
+		</li>
+		<li class="span6">
+			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/kocke123.jpg" alt="Kocke123" class="span4">
 				<div class="caption span8">
 					<h3>Kocke123</h3>
-					<p>Open source HTML5 game.</p>
+					<p>HTML5 open source remake of a classic logic game.</p>
 					<p><a href="#kocke123" role="button" data-toggle="modal" class="btn btn-info">Details</a> <a href="https://github.com/janhancic/kocke123" target="_blank" role="button" class="btn btn-info">View on GitHub</a> <a href="http://www.igre123.com/miselne-igre/igre-kocke123.php" target="_blank">play</a></p>
 				</div>
 			</div>
 		</li>
+	</ul>
+	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/kud.jpg" alt="Kud-trzin.si" class="span4">
@@ -59,8 +71,6 @@
 				</div>
 			</div>
 		</li>
-	</ul>
-	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/popcom.jpg" alt="Popcom.si" class="span4">
@@ -71,6 +81,8 @@
 				</div>
 			</div>
 		</li>
+	</ul>
+	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/vreme.jpg" alt="Vreme-si.com" class="span4">
@@ -81,8 +93,6 @@
 				</div>
 			</div>
 		</li>
-	</ul>
-	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/mojalbum.jpg" alt="Mojalbum.com" class="span4">
@@ -93,6 +103,8 @@
 				</div>
 			</div>
 		</li>
+	</ul>
+	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/spored.jpg" alt="Spored.tv" class="span4">
@@ -103,8 +115,6 @@
 				</div>
 			</div>
 		</li>
-	</ul>
-	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/mojvideo.jpg" alt="Mojvideo.com" class="span4">
@@ -115,6 +125,8 @@
 				</div>
 			</div>
 		</li>
+	</ul>
+	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/videoarhiv.jpg" alt="Videoarhiv" class="span4">
@@ -125,8 +137,6 @@
 				</div>
 			</div>
 		</li>
-	</ul>
-	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/igre123.jpg" alt="Igre123" class="span4">
@@ -137,6 +147,8 @@
 				</div>
 			</div>
 		</li>
+	</ul>
+	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/pozareport.jpg" alt="Pozareport.si" class="span4">
@@ -147,8 +159,6 @@
 				</div>
 			</div>
 		</li>
-	</ul>
-	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/fuglydo5.jpg" alt="FuglyDo5" class="span4">
@@ -159,6 +169,8 @@
 				</div>
 			</div>
 		</li>
+	</ul>
+	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/cba.jpg" alt="Chrome Badge Animator" class="span4">
@@ -169,8 +181,6 @@
 				</div>
 			</div>
 		</li>
-	</ul>
-	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/simplepagecheck.jpg" alt="SimplePageCheck" class="span4">
@@ -181,6 +191,8 @@
 				</div>
 			</div>
 		</li>
+	</ul>
+	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/hnunreadcomments.jpg" alt="HN Unread Comments" class="span4">
@@ -191,8 +203,6 @@
 				</div>
 			</div>
 		</li>
-	</ul>
-	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/cerklje.jpg" alt="Cerklje.si" class="span4">
@@ -203,6 +213,8 @@
 				</div>
 			</div>
 		</li>
+	</ul>
+	<ul class="thumbnails">
 		<li class="span6">
 			<div class="thumbnail row-fluid">
 				<img src="/images/showcase/sgc.jpg" alt="Sgc" class="span4">
@@ -506,6 +518,7 @@
 		</dl>
 	</div>
 </div>
+
 <div class="modal hide" id="simplepagecheck" tabindex="-1" role="dialog">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -663,6 +676,28 @@
 
 			<dt>client</dt>
 			<dd><a href="http://www.ks-con.si">K&S Consulting d.o.o.</a></dd>
+		</dl>
+	</div>
+</div>
+
+<div class="modal hide" id="hnfavouriteusers" tabindex="-1" role="dialog">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">HN Favourite Users <small><a href="https://chrome.google.com/webstore/detail/hn-favourite-users/hleiemhnepoghplnnhkhpnjeiaifnobo" target="_blank">install extension</a></small></h3>
+	</div>
+	<div class="modal-body">
+		<p><a href="http://news.ycombinator.com" target="_blank">Hacker News</a> community has given me so much. So I decided to thank them with this extension. It allows you to create a list of your favourite users and it then highlights those users on each HN page if they are present.</p>
+		<dl class="dl-horizontal">
+			<dt>build time</dt>
+			<dd>1 day</dd>
+
+			<dt>made with</dt>
+			<dd>
+				<span class="label label-info">JavaScript</span> 
+				<span class="label label-info">Twitter Bootstrap</span> 
+				<span class="label label-info">Knockout.JS</span> 
+				<span class="label label-info">jQuery</span> 
+			</dd>
 		</dl>
 	</div>
 </div>
