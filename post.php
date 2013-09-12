@@ -10,12 +10,15 @@
 			<p>But why is that so bad? Well Google’s own page speed tools will tell you: “Keeping cookies and request headers as small as possible ensures that a HTTP request can fit into a single packet.”.</p>
 		</div>
 		<div id="AfterPost">
-			<i class="icon-ok-sign"></i> <strong>Need a freelance developer? <a href="#">Email me</a></strong>
+			<?php /*<i class="icon-ok-sign"></i> <strong>Need a freelance developer? <a href="#">Email me</a></strong>*/ ?>
 			<div>
 				<a href="https://twitter.com/janhancic" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @janhancic</a> <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
 		</div>
+		
+		<p class="muted">If you wish to discuss this post please use <a href="https://twitter.com/intent/tweet?text=@janhancic" target="_blank">twitter</a> or <a href="http://hancic.info/about">contact me</a>.</p>
+		
 		<h4>Comments</h4>
 		<div class="container-fluid" id="Comments">
 			<div class="row-fluid">
@@ -41,20 +44,6 @@
 				</div>
 			</div>
 		</div>
-
-		<h4>Write a comment</h4>
-		<form>
-			<label>Name</label>
-			<input type="text" placeholder="Your name ...">
-
-			<label>Website</label>
-			<input type="text" placeholder="Your website ...">
-
-			<label>Comment</label>
-			<textarea placeholder="Your comment ..." class="input-xxlarge"></textarea>
-			<label></label>
-			<button type="submit" class="btn">Add comment</button>
-		</form>
 	</article>
 	<?php Include ( 'sidebar.php' ) ?>
 </div>
