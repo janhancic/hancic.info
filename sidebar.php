@@ -26,6 +26,9 @@
 					<img src="http://stackoverflow.com/users/flair/185527.png?theme=clean" width="208" height="58" alt="profile for Jan Hančič at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Jan Hančič at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 				</a>
 			</div>
+			<div style="margin-top: 10px;">
+				<a href="http://www.hosterdam.com/" target="_blank"><img src="/images/hosterdam.png" title="Hosted on Hosterdam" alt="hosterdam" /></a>
+			</div>
 			<ul class="nav nav-list">
 				<li class="nav-header">Archive</li>
 				<li class="active2"><a href="#">September 2012</a></li>
