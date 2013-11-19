@@ -30,9 +30,10 @@
 				<a href="http://www.hosterdam.com/" target="_blank"><img src="/images/hosterdam.png" title="Hosted on Hosterdam" alt="hosterdam" /></a>
 			</div>
 			<ul class="nav nav-list">
-				<li class="nav-header">Archive</li>
-				<li class="active2"><a href="#">September 2012</a></li>
-				<li><a href="#">August 2012</a></li>
+				<li class="nav-header">Most popular</li>
+				<li><a href="#">X</a></li>
+				<li><a href="#">Y</a></li>
+				<li><a href="#">Z</a></li>
 			</ul>
 		</div>
 	</div>
