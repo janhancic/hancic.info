@@ -1,7 +1,6 @@
 # hancic.info TODO
 
-- download hugo
-    - make script for running it from local bin folder
+## TODO
 - select hugo theme
 - build a basic hugo website with about page
 - create CloudFlare account
@@ -12,3 +11,8 @@
 - configure DNS to point to CF
 - deploy
 - profit?
+
+## Done
+
+- download hugo
+    - make script for running it from local bin folder
