@@ -1,0 +1,46 @@
+baseURL = 'https://hancic.info/'
+languageCode = 'en-gb'
+title = 'Jan Hančič'
+theme = 'hugo-coder'
+
+[params]
+  author = "Jan Hančič"
+  info = "Father, Principal Engineer, Vegan"
+  description = "John Doe's personal website"
+  keywords = "blog,engineer,developer,personal,vegan"
+  avatarurl = "images/avatar.jpg"
+
+  faviconSVG = "images/favicon.svg"
+  favicon_32 = "images/favicon.png"
+  favicon_16 = "images/favicon.png"
+
+  # TODO
+  since = 2005
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/janhancic/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"

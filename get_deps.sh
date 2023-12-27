@@ -15,7 +15,7 @@ echo "Creating bin folder"
 mkdir -p bin
 
 echo "Downloading hugo version ${HUGO_VERSION}"
-curl -Lk "https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" -o tmp/hugo/hugo.tar.gz
+curl -Lk "https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz" -o tmp/hugo/hugo.tar.gz
 echo "Extracting hugo to local bin folder"
 tar -xvzf tmp/hugo/hugo.tar.gz -C tmp/hugo
 cp tmp/hugo/hugo bin/
