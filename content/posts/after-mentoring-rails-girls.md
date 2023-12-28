@@ -6,7 +6,9 @@ author = "Jan Hančič"
 
 The first [Rails Girls](http://railsgirls.com/) event in Ljubljana was great fun and a huge success. I [volunteered](/mentoring-rails-girls) to be a mentor and I'm really glad that I did. The whole day went by in the blink of an eye, and I'll be more than happy to do it again someday.
 
-![Me coaching Rails Girls](/post_images/486953_482121575160459_999443438_n.jpg)Me coaching [@ManjaUZ](https://twitter.com/ManjaUZ) and [@AndrejaCokl](https://twitter.com/AndrejaCokl) (© Katarina Jazbec & Rails Girls Ljubljana)
+![Me coaching Rails Girls](/post_images/486953_482121575160459_999443438_n.jpg)
+
+Me coaching [@ManjaUZ](https://twitter.com/ManjaUZ) and [@AndrejaCokl](https://twitter.com/AndrejaCokl) (© Katarina Jazbec & Rails Girls Ljubljana)
 
 The whole point of the [event](http://railsgirls.com/ljubljana) was to introduce girls to the world of programming, and to expose the fact that there basically aren't any women in IT. We certainly succeeded in showing girls what's what, and based on the huge number of applications the organizers received, there seems to be a lot of interest out there. This proves that events like this need to happen more often.
 
