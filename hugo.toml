@@ -3,9 +3,13 @@ languageCode = 'en-gb'
 title = 'Jan Hančič'
 theme = 'hugo-coder'
 
+[permalinks]
+posts = "/:slug/"
+
 [params]
+  mainSections = ["/"]
   author = "Jan Hančič"
-  info = "Father, Principal Engineer, Vegan"
+  info = "Father, Life Partner, Vegan, Principal Engineer"
   description = "John Doe's personal website"
   keywords = "blog,engineer,developer,personal,vegan"
   avatarurl = "images/avatar.jpg"
@@ -33,7 +37,7 @@ theme = 'hugo-coder'
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/janhancic/"
+  url = "https://github.com/janhancic"
 
 # Menu links
 [[menu.main]]
