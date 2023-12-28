@@ -1,0 +1,10 @@
++++
+title = "Knowledge is a tricky business"
+date = "2010-04-01T20:51:43Z"
+author = "Jan Hančič"
++++
+
+Working in IT, I'm painfully aware that technology I learn about today can, and most probably will, be obsolete tomorrow. And I'm quite happy with that as it gives me reason to learn new stuff constantly. But recently I was reminded that even stuff that you think you know and generally doesn't change can ... well change, some APIs change constantly and you have to re-learn them all the time. But that usually isn't a problem as you will be reminded of the change by your program not working (and by the yelling of your customers, off course). The problem is when something changes in a way that the old way still works but is suddenly extremely inefficient, and you simply don't know that something changed.
+
+I was also recently reminded that I might have to re-learn some of the stuff I already know and hasn't changed. I was reading a book called [High performance MySQL](http://oreilly.com/catalog/9780596003067) (it was sitting on my shelf for almost a year now) and it shook the foundations of my knowledge that I base my code on. I learned that VARCHAR can be longer than 255 chars. Where did I pick that limitation up I don't know (probably from CHAR, now that I have re-read the documentation), but I've been designing my schemas all this years with this limitation in mind and it never occurred to me that, in reality, I can define VARCHAR to be 65,535 chars long. I always used TEXT (or some variation) when it was required to store longer text.
+This case by itself is no big deal, but I'm now trying to figure out what else I've also learned the wrong way in my early days as a programmer (I started to learn MySQL almost right from the start). The problem is that there's simply no easy way to find out. I'd have to re-read every manual for every technology I use, and since I kinda need to sleep I think I won't be doing that. What I will do, however, is open the manual every time I start using something that I take for granted so I will find out if there is anything rotten in my knowledge on that particular topic.

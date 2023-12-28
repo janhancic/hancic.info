@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<title>pretty text input jQuery plugin</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	</head>
+	<body>
+		<p><input type="text" name="txtInput1" value="search me" /></p>
+		<p><input type="text" name="txtInput2" value="search me too" /></p>
+		<p><input type="text" name="txtInput3" value="" /></p>
+		<p><input type="text" name="txtInput4" value="some test" /></p>
+		<p><input type="text" name="txtInput5" value="" /></p>
+		<p>Read about this plugin <a href="http://hancic.info/pretty-textbox-jquery-plugin/">here</a></p>
+		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script> 
+		<script type="text/javascript">
+		(function ( $ ) {
+			$.fn.prettyTextInput = function ( options ) {
+				var defaultOptions = {
+					defaultStateClass: null,
+					defaultValue: null
+				};
+				var options = $.extend ( defaultOptions, options );
+
+				return this.each ( function () {
+					var thisEl = $( this );
+					if ( thisEl.val () === '' ) {
+						thisEl.val ( options.defaultValue );
+					}
+
+					var initialValue = thisEl.val ();
+
+					thisEl.addClass ( options.defaultStateClass );
+
+					thisEl.blur ( function () {
+						if ( $.trim ( thisEl.val () ) === '' ) {
+							thisEl.val ( initialValue );
+							thisEl.addClass ( options.defaultStateClass );
+						}
+					} ).focus ( function () {
+						if ( thisEl.val () === initialValue ) {
+							thisEl.removeClass ( options.defaultStateClass );
+							thisEl.val ( '' );
+						}
+					} );
+				} );
+			}
+		} ) ( jQuery );
+
+		$( document ).ready ( function () {
+			$( "input[type='text']" ).prettyTextInput ( {
+				defaultStateClass: 'SearchDefaultState',
+				defaultValue: 'some default value'
+			} );
+		} );
+		</script>
+		<style type="text/css">
+		input[type="text"] {
+			border: 1px solid black;
+			height: 18px;
+			padding: 2px;
+			-moz-border-radius: 5px;
+			-moz-box-shadow: 5px 5px 5px #CCCCCC;
+			-webkit-border-radius: 5px;
+			-webkit-box-shadow: 5px 5px 5px #CCCCCC;
+		}
+
+		.SearchDefaultState {
+			color: #CCCCCC;
+			background: url('search.gif') no-repeat right top;
+		}
+		</style>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+<?php
+
+class WbrInserter
+{
+	protected $counter;
+	protected $tags;
+
+	public function __construct ()
+	{
+		$this->reset ();
+	}
+
+	protected function reset ()
+	{
+		$this->counter = 0;
+		$this->tags = Array ();
+	}
+
+	protected function preWbrCallback ( $Matches )
+	{
+		$this->tags[] = $Matches[1];
+
+		return ' $%&' . $this->counter++ . ' ';
+	}
+
+	protected function postWbrCallback ( $Matches )
+	{
+		return '<' . $this->tags[$Matches[1]] . '>';
+	}
+
+	protected function insertWbr ( $Text )
+	{
+		$splited = Explode ( ' ', $Text );
+		foreach ( $splited as $key => $value )
+		{
+			$valueLength = Mb_StrLen ( $value );
+			if ( $valueLength > 10 )
+			{
+				$newValue = '';
+
+				for ( $i = 5; $i < $valueLength; $i = $i + 5 )
+				{
+					$newValue .= Mb_SubStr ( $value, $i - 5, 5 ) . '<wbr>';
+
+					if ( $i + 5 >= $valueLength )
+					{
+						$newValue .= Mb_SubStr ( $value, $i );
+						break; // save some time by breaking from the loop, as we already know the next condition check will fail
+					}
+				}
+
+				$splited[$key] = $newValue;
+			}
+		}
+
+		return Nl2Br ( Implode ( ' ', $splited ) );
+	}
+
+	public function InsertPlainWbr ( $PlainText )
+	{
+		return $this->insertWbr ( $PlainText );
+	}
+
+	public function InsertHtmlWbr ( $HtmlText )
+	{
+		$this->reset ();
+
+		$cleanText = Preg_Replace_Callback ( '/<(.*?)>/is', Array ( $this, 'preWbrCallback' ), $HtmlText );
+
+		$cleanText = $this->insertWbr ( $cleanText );
+
+		return Preg_Replace_Callback ( '/ \$%&([0-9]+) /is', Array ( $this, 'postWbrCallback' ), $cleanText );
+	}
+}
+
+?>
