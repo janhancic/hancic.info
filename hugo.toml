@@ -9,7 +9,7 @@ posts = "/:slug/"
 [params]
   mainSections = ["/"]
   author = "Jan Hančič"
-  info = "Father, Life Partner, Vegan, Principal Engineer"
+  info = "Father, Partner, Vegan, Engineer"
   description = "John Doe's personal website"
   keywords = "blog,engineer,developer,personal,vegan"
   avatarurl = "images/avatar.jpg"
