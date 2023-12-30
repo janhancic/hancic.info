@@ -10,6 +10,7 @@
 - deploy
 - find a lightweight theme without any JS nonsense
 - port contents of `old` (from ZIP) into the blog
+- move .terraform.tfstate to some proper remote state?
 - profit?
 
 ## Done

@@ -1,4 +1,8 @@
 bin/*
 public/*
+tf/.terraform.lock.hcl
+tf/.terraform/*
+tf/terraform.tfstate
+tf/terraform.tfstate.backup
 tmp/*
 wp2hugo/tmp/*
