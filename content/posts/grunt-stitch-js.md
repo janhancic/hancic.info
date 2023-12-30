@@ -28,7 +28,7 @@ return something;
 
 ```
 
-And then, after configuring the template and output files in your \`Gruntfile.js\`, running \`grunt stitch-js\`would produce a file like this:
+And then, after configuring the template and output files in your `Gruntfile.js`, running `grunt stitch-js`would produce a file like this:
 
 ```
 var MyLib = (function() {

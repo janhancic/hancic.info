@@ -8,7 +8,7 @@ author = "Jan Hančič"
 
 So I fired up my [favourite editor](http://www.sublimetext.com/) and started making a simple bookmarklet that would remove all the jobs that are not from the city (or cities) I'm interested in.
 
-I had tons of problems traversing HN's DOM so after a while I decided to just use jQuery and be done with it. But that also gave me some weird problems in Chrome (even though the exact same selector, that I use, works perfectly fine in my [HN Unread Comments](https://github.com/janhancic/hn-unread-comments) extension). Running the code (after a page refresh) would produce some cryptic error (that google never heard of), but running the same code immediately after would work without a problem. So I reverted back to native \`document.querySelectorAll\` and made it work.
+I had tons of problems traversing HN's DOM so after a while I decided to just use jQuery and be done with it. But that also gave me some weird problems in Chrome (even though the exact same selector, that I use, works perfectly fine in my [HN Unread Comments](https://github.com/janhancic/hn-unread-comments) extension). Running the code (after a page refresh) would produce some cryptic error (that google never heard of), but running the same code immediately after would work without a problem. So I reverted back to native `document.querySelectorAll` and made it work.
 
 Anyhow, you can find the bookmarklet on GitHub in the [janhancic/hnHiringFilter](https://github.com/janhancic/hnHiringFilter) repository. Or you can head to [this page](http://janhancic.github.com/hnHiringFilter/) to "install" it directly.
 
