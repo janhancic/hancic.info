@@ -11,7 +11,7 @@ necessary binaries into the `bin` folder inside the repo folder. The website is 
 be built using these binaries as they are pinned to a specific version.
 
 ### Terraform
-The website is deployed onto CloudFront Pages which is managed with Terraform defined
+The website is deployed onto CloudFlare Pages which is managed with Terraform defined
 in the `tf` folder. All changes are applied manually (i.e. there is no CI/CD).
 
 _Note:_ If setting this up on a new CloudFlare account, you have to connect CloudFlare to
@@ -39,7 +39,7 @@ to the terraform commands directly with `-var var_name=foo` e.g. `../bin/terrafo
 #### terraform.tfstate
 
 The state file is not checked-in into the repo. While nobody else will work on this repo and
-run terraform commands against my personal CloudFront account, the file could contain some
+run terraform commands against my personal CloudFlare account, the file could contain some
 sensitive information.
 
 At the moment it is simply stored on my computer (with a decent-ish manual backup).
