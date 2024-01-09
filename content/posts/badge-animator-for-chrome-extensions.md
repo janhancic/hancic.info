@@ -12,7 +12,7 @@ While coding I thought it would be cool if I could scroll some text in the, what
 
 Well I've made [Chrome Badge Animator](https://github.com/janhancic/chrome-badge-animator) which you can use like this:
 
-```
+```js
 var animator = new BadgeTextAnimator( {
 	text: 'this is some sample text', // text to be scrolled (or animated)
 	interval: 200, // the "speed" of the scrolling

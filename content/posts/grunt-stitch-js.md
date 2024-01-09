@@ -16,7 +16,7 @@ So what's it all about then? grunt-stitch-js does something very simple, suppose
 
 You would create a template file:
 
-```
+```js
 var MyLib = (function() {
 /*# class1.js #*/
 /*# class2.js #*/
@@ -30,7 +30,7 @@ return something;
 
 And then, after configuring the template and output files in your `Gruntfile.js`, running `grunt stitch-js`would produce a file like this:
 
-```
+```js
 var MyLib = (function() {
 contents of class1.js
 contents of class2.js

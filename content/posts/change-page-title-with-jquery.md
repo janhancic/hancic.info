@@ -6,19 +6,19 @@ author = "Jan Hančič"
 
 I just had a need to change the title of the page with JavaScript, and since I use jQuery I imediatelly wrote this:
 
-```
+```js
 $( 'title' ).html ( 'new title' );
 ```
 
 and it didn't work. Ok, how about this:
 
-```
+```js
 $( 'title' ).val ( 'new title' );
 ```
 
 nope. So after some googling I found out that jQuery just can't do that. You have to use plain old JavaScript:
 
-```
+```js
 document.title = 'new title';
 ```
 

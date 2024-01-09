@@ -10,9 +10,8 @@ So how did I solve the problem with HTML tags? Well before I process the content
 
 A quick demonstration on how to use the class (use freely, no guaranties):
 
-```
+```php
 $o = new WbrInserter ();
 echo $o->InsertHtmlWbr ( 'text with HTML tags' ); // use this method if you have HTML tags in your content
 echo $o->InsertPlainWbr ( 'text without HTML tags' ); // use this method if your content doesn’t include HTML tags
-
 ```

@@ -16,7 +16,7 @@ Source code of the class can be found [here](/post_images/sitemapclass.phps).
 
 And here is a short example of how to use it:
 
-```
+```php
 Include ( '/path/to/SiteMap.class.php' );
 // change to SiteMap::WRITE_GZIP to compress the sitemaps
 $sm = new SiteMap ( '/path/to/sitemaps/', 'http://www.yourdomain.com/sitemaps/', SiteMap::WRITE_PLAIN );

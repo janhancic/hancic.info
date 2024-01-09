@@ -14,7 +14,7 @@ You can grab the code [here](https://github.com/janhancic/simplepagecheck "Simpl
 
 And a simple example so you can better imagine what this class does:
 
-```
+```php
 Include ( 'SimplePageCheck.php' );
 
 // initialize a new SimplePageCheck object

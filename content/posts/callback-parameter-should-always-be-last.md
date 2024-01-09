@@ -8,7 +8,7 @@ author = "Jan Hančič"
 
 What I want to talk about is the order of parameters in functions that also accept callbacks as parameters. To be fair in most of the libraries (that I've come across) this isn't a issue. But there are some that have this problem. And the problem is that the callback is no the last parameter. One example is [jake's task](https://github.com/mde/jake#tasks). Here the callback is second to last. This means you might end up writing code that looks like this:
 
-```
+```js
 task(
   'my-task',
   ['other-task', 'fancy-task'],

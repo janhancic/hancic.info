@@ -18,7 +18,7 @@ But you can do something about those fat cookies. You can't eliminate them (we'l
 
 The other way is to setup a sub domain and again serve all your static content from that domain. This requieres another step. You have to instruct analytics to only set cookies for "www.your-page.com". Analytics will then set cookies so that they are only accessible from the domain you specify and not it's sub domains. The result is then the same as with the first approach. This is how you instruct analytics to only set cookies for one domain:
 
-```
+```js
 var _gaq=_gaq||[];
 _gaq.push(['_setDomainName','www.your-page.com']); // the important part
 // make sure that _setDomainName is the first GA

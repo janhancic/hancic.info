@@ -14,7 +14,7 @@ The principle is really simple. All this does is analyses the array being looped
 
 So if you have code like this:
 
-```
+```js
 items.forEach(function(item, idx) {
     var foo = item * idx;
 });
@@ -23,7 +23,7 @@ items.forEach(function(item, idx) {
 
 it will get converted into a string (that looks something like the one below) and then evaluated:
 
-```
+```js
 // __i__, __len__ & __array__ are "injected" once this is evaluated
 var item, idx;
 for ( ; < __i__ < __len__; ++__i__) {

@@ -12,7 +12,7 @@ There are actually two different things going on. One thing are schemas (more on
 
 There really isn't much to it when you go about telling google what image&name to display along the search results for your blog posts. You just have to include a special link to your Google+ profile somewhere on your page and you're all set:
 
-```
+```html
 <a href="https://plus.google.com/GOOGLE_PLUS_PROFILE_ID?rel=author">Google+</a>
 ```
 
@@ -24,7 +24,7 @@ Ok how about stuff like this:
 
 This is achieved by utilizing special HTML tags (and their attributes) as defined on [schema.org](http://schema.org/). You can tell search engines what content you are showing on some page, which helps them to better understand it. You can define [different types of things](http://schema.org/docs/schemas.html) and then search engines may or may not use that information when displaying results. To display star ratings you would need markup like this:
 
-```
+```html
 <div itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
   <h1 itemprop="itemreviewed">Some title</h1>
   <div itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">average: <span itemprop="average">4.5</span></span>, <span itemprop="votes">42</span> votes.</div>

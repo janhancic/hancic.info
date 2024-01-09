@@ -9,22 +9,20 @@ When PHP comes to a statement, that contains the @ operator, it changes error re
 So after I stopped scratching my head and thinking "why the bloody hell would one do that like so?", I opened [my PHP editor](http://www.sublimetext.com/) and wrote this simple test to see just how much of a difference this makes. It's the most common scenario where you check if a GET variable has any content.
 First the version with @:
 
-```
+```php
 for ( $i = 0; $i < 1000000; $i++ ) {
 	if ( @$_GET['var'] != '' )
 		echo 'foo';
 }
-
 ```
 
 And the version without @:
 
-```
+```php
 for ( $i = 0; $i < 1000000; $i++ ) {
 	if ( IsSet ( $_GET['var'] ) && $_GET['var'] != '' )
 		echo 'foo';
 }
-
 ```
 
 I timed the execution of both snippets and here are the results:

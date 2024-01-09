@@ -13,7 +13,7 @@ So all I needed was a way to insert this tag into the text. So I wrote this PHP 
 You will notice that I don't pass the $encoding setting into any of the [Mb\_\*](http://si2.php.net/manual/en/ref.mbstring.php) functions. This is because I have set the encoding via [Mb\_Internal\_Encoding](mb_internal_encoding) at the beginning of my script.
 One final note: thw "wbr" tag is not supported in Opera so you have to use some CSS. Details can be found [here](http://gojomo.blogspot.com/2005/03/cross-browser-invisible-word-break-in.html), I used the code in the last comment.
 
-```
+```php
 function MakeDisplayFriendly ( $Text )
 {
 	$splited = Explode ( ' ', $Text );

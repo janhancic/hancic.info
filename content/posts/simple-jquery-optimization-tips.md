@@ -9,7 +9,7 @@ I use [jQuery](http://www.jquery.com) on all of my projects so I'll share some t
 
 This first tip is hopefully painfully obvious to most of you. If you are referencing a jQuery element more than once store it in a variable so you don't select it over and over again (DOM traversing is slooooooow):
 
-```
+```js
 $( '.SomeDivs' ).each ( function () {
 	var $this = $( this );
 	// do something with the current element
@@ -20,7 +20,7 @@ $( '.SomeDivs' ).each ( function () {
 The second tip is not so obvious. jQuery comes equipped with a powerful selector engine, which allows you to find some element(s) on various ways. And there can be a great difference between doing $( '.SomeClass' ) and $( 'p.SomeClass' ).
 I won't go into details here as somebody else has [already done this](http://www.componenthouse.com/article-19 "jQuery: Performance analysis of selectors"). I'll just post this quick summary here:
 
-```
+```js
 // find element by ID
 $( '#d-2642' ).html (); // is (obviously) much faster than
 $( '[id="d-2642"]' ).html(); // or

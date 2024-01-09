@@ -10,7 +10,7 @@ So what is it? It's a really simple utility function that saves you some keystro
 
 A quick example. You write this:
 
-```
+```js
 var myConstants = mirrorKey({
     MY_FOO: null,
     MY_BAR: null
@@ -19,7 +19,7 @@ var myConstants = mirrorKey({
 
 And the resulting object will then look like this:
 
-```
+```js
 {
     MY_FOO: 'my-foo',
     MY_BAR: 'my-bar'
