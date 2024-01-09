@@ -1,3 +1,4 @@
+
 # hancic.info TODO
 
 ## TODO
@@ -21,3 +22,4 @@
 - create .tf for CF resources
 - configure DNS to point to CF
 - deploy
+- .gitignore `resources/`

@@ -1,5 +1,6 @@
 bin/*
 public/*
+resources/*
 tf/.terraform.lock.hcl
 tf/.terraform/*
 tf/terraform.tfstate
