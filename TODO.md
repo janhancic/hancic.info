@@ -2,7 +2,6 @@
 # hancic.info TODO
 
 ## TODO
-- write about page
 - find a lightweight theme without any JS nonsense
 - port contents of `old` (from ZIP) into the blog
 - figure out how to get the page redirect into Terraform
@@ -23,3 +22,4 @@
 - configure DNS to point to CF
 - deploy
 - .gitignore `resources/`
+- write about page
