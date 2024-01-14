@@ -30,6 +30,7 @@ so my workflow is:
 
 ```shell
 $EDITOR content/posts/new-post.md
+git add .
 git commit -am 'new post'
 git push origin
 ```
