@@ -30,7 +30,7 @@ with (or out of) any animal or animal derived products. This is the response I g
 > earlier answer given above)."
 
 This is verbatim the same response as from the Reddit thread and it confirms that, in fact, **LEGO
-exploits and abuses animals to produce their products**.
+exploits and kills animals to produce their products**.
 
 Given my love of LEGO this is absolutely disappointing and I now have a choice between sticking to my
 principles or continuing enjoying doing something I love. It's not a hard decision, of course. For
