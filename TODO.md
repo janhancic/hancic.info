@@ -2,6 +2,7 @@
 # hancic.info TODO
 
 ## TODO
+- figure out how to enable tags (currently it 404s if you add a tag to a post and then click on it)
 - find a lightweight theme without any JS nonsense
 - port contents of `old` (from ZIP) into the blog
 - figure out how to get the page redirect into Terraform
