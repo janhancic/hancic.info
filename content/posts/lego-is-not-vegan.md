@@ -2,6 +2,7 @@
 title = "LEGO is not vegan"
 date = "2024-01-14T17:00:00Z"
 author = "Jan Hančič"
+tags = ["lego", "vegan", "principles"]
 +++
 
 I've been a life-long fan of LEGO. Some of my earliest memories are of either playing with LEGO, and
