@@ -46,8 +46,9 @@ export CLOUDFLARE_API_TOKEN=<token>
 ../bin/terraform apply
 ```
 
-You either need to create a `terraform.tfvars`` or provide the required variables
-to the terraform commands directly with `-var var_name=foo` e.g. `../bin/terraform apply -var cf_account_id=XZY`
+You either need to create a `terraform.tfvars` or provide the required variables
+to the terraform commands directly with `-var var_name=foo` e.g.
+`../bin/terraform apply -var cf_account_id=XZY`
 
 #### terraform.tfstate
 
