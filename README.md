@@ -10,6 +10,19 @@ All dependencies are obtained with the `./get_deps.sh` script which will downloa
 necessary binaries into the `bin` folder inside the repo folder. The website is meant to
 be built using these binaries as they are pinned to a specific version.
 
+After cloning the repository run
+
+```bash
+git submodule init
+git submodule update
+```
+
+Then to run the development server run
+
+```bash
+./bin/hugo server -D
+```
+
 ### Terraform
 The website is deployed onto CloudFlare Pages which is managed with Terraform defined
 in the `tf` folder. All changes are applied manually (i.e. there is no CI/CD).
