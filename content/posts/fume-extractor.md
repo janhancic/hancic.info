@@ -14,7 +14,7 @@ created that could be used by anyone, not just me.
 I have now reached a stage in my new hobby where I needed to learn soldering, something I had never
 done before. I was quite afraid of soldering. I remember my dad doing it regularly at home and
 warning me that it could be dangerous. So, once I reached the point in my current project (a 3D
-printed RC car) where I could no longer prolong learning to solder so I quickly prolonged it by
+printed RC car) where I could no longer prolong learning to solder I quickly prolonged it by
 convincing myself that I needed a fume extractor. For safety.
 
 Classic case of "getting distracted by building tools so you can continue working on
